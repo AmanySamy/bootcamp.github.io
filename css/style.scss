@@ -23,7 +23,7 @@ body{
 	
 }
 .scrolled{
-	background: rgba(53,53,53,.8) !important;
+	// background: rgba(53,53,53,.8) !important;
 }
 .display-center{
 	justify-content: center;
@@ -49,16 +49,17 @@ section{
 
 /*=============End Our Framework ==============*/
 .navbar{
-	background: rgba(53,53,53,.27);
-	// direction: ltr;
+// background: rgba(53,53,53,.27);
+	.navbar-brand{
+		img{
+			width: 160px; 
+		}
+	}
 	.navbar-toggler{
 		border: 1px solid #FFF;
 
 		.fa-bars{
 			color: #FFF;
-		}
-		.navbar-toggler-icon {
-			// background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
 		}
 	}
 	.navbar-collapse{
@@ -134,8 +135,9 @@ section{
 
 /*=============Start Header ==============*/
 header{
-	background: url("../img/homeBG.png") no-repeat center;
-	color: #f3f3f3;
+	// background: url("../img/homeBG.png") no-repeat center;
+	background: url("../img/header.jpg") no-repeat center;
+	color: #000;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
@@ -152,6 +154,7 @@ header{
 			.company-logo{
 				margin: 20px auto;
 				display: block;
+				width: 250px;
 			}
 			.company-name{
 				font-size: 4.5rem;
@@ -160,7 +163,7 @@ header{
 				&::after{
 					position: absolute;
 					content: '';
-					background: #f3f3f3;
+					background: #0071BC;
 					display: block;
 					width: 300px;
 					height: 3px;
