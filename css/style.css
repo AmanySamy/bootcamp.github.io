@@ -20,6 +20,10 @@ body {
   left: 0;
 }
 
+.scrolled {
+  background: rgba(253, 253, 253, 0.8) !important;
+}
+
 .display-center {
   justify-content: center;
   align-items: center;
@@ -67,7 +71,7 @@ section .sec-desc {
 }
 
 .navbar .nav-item .nav-link {
-  color: #f7f7f7;
+  color: #0071BC;
   padding: 0 10px;
   font-weight: bold;
   transition: all .3s ease-in-out;
