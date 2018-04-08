@@ -20,10 +20,6 @@ body {
   left: 0;
 }
 
-.scrolled {
-  background: rgba(253, 253, 253, 0.8) !important;
-}
-
 .display-center {
   justify-content: center;
   align-items: center;
@@ -49,6 +45,11 @@ section .sec-desc {
 
 /*=============End Our Framework ==============*/
 /*=============End Our Framework ==============*/
+.navbar {
+  background: rgba(53, 53, 53, 0.27);
+  padding: 15px 0px;
+}
+
 .navbar .navbar-brand img {
   width: 160px;
 }
@@ -78,7 +79,7 @@ section .sec-desc {
 }
 
 .navbar .nav-item.active .nav-link, .navbar .nav-item:hover .nav-link {
-  color: #000;
+  color: #FFF;
 }
 
 .navbar .nav-item:last-of-type .nav-link {
@@ -127,11 +128,15 @@ section .sec-desc {
 /*=============Start Header ==============*/
 header {
   background: url("../img/header.jpg") no-repeat center;
-  color: #000;
+  color: #FFF;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
   position: relative;
+}
+
+header .overlay {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 header .container {
@@ -144,7 +149,6 @@ header .container {
 
 header .container .company-info {
   position: absolute;
-  right: 50%;
 }
 
 header .container .company-info .company-logo {
@@ -170,35 +174,22 @@ header .container .company-info .company-name::after {
 }
 
 header .container .company-info .follow-us {
-  background-color: rgba(85, 86, 88, 0.64);
-  padding: 5px 15px;
+  background-color: rgba(85, 86, 88, 0.74);
+  padding: 10px 25px;
   border-radius: 20px;
   font-size: 1.1rem;
+  color: #fff;
+  display: block;
+  margin: 30px auto;
+}
+
+header .container .company-info .company-slogan {
+  margin: 30px 0px;
 }
 
 header .container .company-info .company-slogan li {
   font-size: 1.5rem;
   font-weight: 400;
-}
-
-header .container .company-info .social {
-  margin: 20px 0px;
-}
-
-header .container .company-info .social .social-item {
-  display: inline-block;
-  margin: 0px 5px;
-}
-
-header .container .company-info .social .social-item .fa {
-  color: #f7f7f7;
-  border: 2px solid #f7f7f7;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 30px;
-  cursor: pointer;
 }
 
 header .logo {
@@ -209,22 +200,6 @@ header .logo {
 
 .social {
   margin: 20px 0px;
-}
-
-.social .social-item {
-  display: inline-block;
-  margin: 0px 5px;
-}
-
-.social .social-item .fa {
-  color: #f7f7f7;
-  border: 2px solid #f7f7f7;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 30px;
-  cursor: pointer;
 }
 
 /*=============End Header==============*/
@@ -266,22 +241,19 @@ header .logo {
 /*=============End About Section==============*/
 /*=============Start Services Section==============*/
 .services {
-  background: #f7f7f7;
-}
-
-.services .ser-row {
-  margin-top: 35px;
+  background: url("../img/servicesBG.png");
 }
 
 .services .ser-row .service {
-  min-height: 100px;
   display: flex;
   align-items: center;
   overflow: hidden;
+  margin: 50px 0px;
 }
 
 .services .ser-row .service img {
   margin-left: 20px;
+  width: 65px;
 }
 
 .services .ser-row .service h3 {

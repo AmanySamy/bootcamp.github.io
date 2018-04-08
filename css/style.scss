@@ -23,7 +23,7 @@ body{
 	
 }
 .scrolled{
-	background: rgba(253,253,253,.8) !important;
+	// background: rgba(253,253,253,.8) !important;
 }
 .display-center{
 	justify-content: center;
@@ -49,7 +49,8 @@ section{
 
 /*=============End Our Framework ==============*/
 .navbar{
-// background: rgba(53,53,53,.27);
+	background: rgba(53,53,53,.27);
+	padding: 15px 0px;
 	.navbar-brand{
 		img{
 			width: 160px; 
@@ -78,7 +79,7 @@ section{
 		&.active,
 		&:hover{
 			.nav-link{
-				color: #000;
+				color: #FFF;
 			}
 		}
 		&:last-of-type{
@@ -137,11 +138,14 @@ section{
 header{
 	// background: url("../img/homeBG.png") no-repeat center;
 	background: url("../img/header.jpg") no-repeat center;
-	color: #000;
+	color: #FFF;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
 	position: relative;
+	.overlay{
+		background: rgba(0,0,0,.7);
+	}
 	.container{
 		height: 100%;
 		display: flex;
@@ -150,7 +154,7 @@ header{
 		flex-direction: column;
 		.company-info{
 			position: absolute;
-			right: 50%;
+			// right: 50%;
 			.company-logo{
 				margin: 20px auto;
 				display: block;
@@ -171,31 +175,23 @@ header{
 				}
 			}
 			.follow-us{
-				background-color: rgba(85,86,88,.64);
-				padding: 5px 15px;
+				background-color: rgba(85,86,88,.74);
+				padding: 10px 25px;
 				border-radius: 20px;
 				font-size: 1.1rem;
+				color: #fff;
+				display: block;
+				margin: 30px auto;
 			}
-			.company-slogan li{
-				font-size: 1.5rem;
-    			font-weight: 400;
-			}
-			.social{
-				margin: 20px 0px;
-				.social-item{
-					display: inline-block;
-					margin: 0px 5px;
-					.fa{
-						color: #f7f7f7;
-						border: 2px solid #f7f7f7;
-						width: 35px;
-						height: 35px;
-						border-radius: 50%;
-						text-align: center;
-						line-height: 30px;
-						cursor: pointer;
-					}
+			.company-slogan {
+				margin: 30px 0px;
+				li{
+					font-size: 1.5rem;
+					font-weight: 400;
 				}
+			}
+			.company-btn{
+				
 			}
 		}
 	}	
@@ -207,20 +203,7 @@ header{
 }
 .social{
 	margin: 20px 0px;
-	.social-item{
-		display: inline-block;
-		margin: 0px 5px;
-		.fa{
-			color: #f7f7f7;
-			border: 2px solid #f7f7f7;
-			width: 35px;
-			height: 35px;
-			border-radius: 50%;
-			text-align: center;
-			line-height: 30px;
-			cursor: pointer;
-		}
-	}
+	
 }
 
 
@@ -264,16 +247,18 @@ header{
 
 /*=============Start Services Section==============*/
 .services{
-	background: $bgColor;
+	background: url("../img/servicesBG.png");
 	.ser-row{
-		margin-top: 35px;
+		
 		.service{
-			min-height: 100px;
 			display: flex;
 			align-items: center;
 			overflow: hidden;
+			margin: 50px 0px;
 			img{
 				margin-left: 20px;
+				width: 65px;
+				// opacity: .5;
 			}
 			h3{
 				color: #353c3e;
