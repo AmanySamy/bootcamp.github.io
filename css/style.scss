@@ -22,9 +22,9 @@ body{
 	left : 0;
 	
 }
-.scrolled{
-	// background: rgba(253,253,253,.8) !important;
-}
+// .scrolled{
+// 	 background: rgba(53,53,53,.8) !important;
+// }
 .display-center{
 	justify-content: center;
 	align-items: center;
@@ -190,9 +190,6 @@ header{
 					font-weight: 400;
 				}
 			}
-			.company-btn{
-				
-			}
 		}
 	}	
 	.logo{
@@ -290,24 +287,37 @@ header{
 		top: 2%;
 		right: 7%;
 	}
-	.step-num,i{
-		display: block;
-		background: #ccc;
-		border-radius: 50%;
-		width: 46px;
-		height: 46px;
-		line-height: 46px;
+	.steps{
+		.step-num,i{
+			display: block;
+			background: #ccc;
+			border-radius: 50%;
+			width: 46px;
+			height: 46px;
+			line-height: 46px;
+		}
+		i{
+			background: #0071BC;
+			color: #FFF;
+		}
+		h3{
+			font-size: 1.5rem;
+			margin: 10px 0px;
+		}
+		p{
+			background: #CCC;
+			padding: 10px;
+			border-radius: 10px;
+			min-height: 188px;
+		}
 	}
-	i{
-		background: #729347;
-		color: #FFF;
-	}
+	
 }
 /*=============End Developing Process Section==============*/
 
 /*=============Start Our Clients Section==============*/
 .clients{
-	background: #729347;
+	background: #0071BC;
 	color: #f7f7f7;
 	.black{
 		color:#000;

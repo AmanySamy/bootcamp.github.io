@@ -284,7 +284,7 @@ header .logo {
   right: 7%;
 }
 
-.develop .step-num, .develop i {
+.develop .steps .step-num, .develop .steps i {
   display: block;
   background: #ccc;
   border-radius: 50%;
@@ -293,15 +293,27 @@ header .logo {
   line-height: 46px;
 }
 
-.develop i {
-  background: #729347;
+.develop .steps i {
+  background: #0071BC;
   color: #FFF;
+}
+
+.develop .steps h3 {
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
+
+.develop .steps p {
+  background: #CCC;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 188px;
 }
 
 /*=============End Developing Process Section==============*/
 /*=============Start Our Clients Section==============*/
 .clients {
-  background: #729347;
+  background: #0071BC;
   color: #f7f7f7;
 }
 
