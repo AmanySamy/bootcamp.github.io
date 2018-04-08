@@ -313,8 +313,8 @@ header .logo {
 /*=============End Developing Process Section==============*/
 /*=============Start Our Clients Section==============*/
 .clients {
-  background: #0071BC;
-  color: #f7f7f7;
+  background: rgba(0, 113, 188, 0.2);
+  color: #0071BC;
 }
 
 .clients .black {
@@ -322,7 +322,7 @@ header .logo {
 }
 
 .clients .sec-desc {
-  color: #f7f7f7;
+  color: #0071BC;
   margin-bottom: 55px;
 }
 
@@ -332,7 +332,7 @@ header .logo {
 
 .clients .owl-carousel .owl-item img {
   display: inline-block;
-  max-width: 279px;
+  max-width: 260px;
 }
 
 .clients .owl-carousel .owl-nav {

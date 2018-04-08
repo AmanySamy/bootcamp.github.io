@@ -317,20 +317,20 @@ header{
 
 /*=============Start Our Clients Section==============*/
 .clients{
-	background: #0071BC;
-	color: #f7f7f7;
+	background: rgba(0, 113, 188,.2);
+	color: #0071BC;
 	.black{
 		color:#000;
 	}
 	.sec-desc{
-		color: #f7f7f7;
+		color: #0071BC;
 		margin-bottom: 55px;
 	}
 	.owl-carousel{
 		overflow: hidden;
 		.owl-item img {
 			display: inline-block;
-			max-width: 279px;
+			max-width: 260px;
 		}
 		.owl-nav{
 			position: absolute;
