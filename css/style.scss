@@ -118,7 +118,6 @@ section{
 
 /*=============Start Header ==============*/
 header{
-	// background: url("../img/homeBG.png") no-repeat center;
 	background: url("../img/header.jpg") no-repeat center;
 	color: #FFF;
 	background-size: cover;
@@ -180,55 +179,17 @@ header{
 		margin-bottom: 30px;
 	}
 }
-.social{
-	margin: 20px 0px;
-	
-}
+
 
 
 
 /*=============End Header==============*/
 
-/*=============Start About Section==============*/
-.about{
-	.stats-row {
-		margin-top: 65px;
-		.stats-col{
-			margin-bottom: 25px;
-		}
-	}
-	.circle{
-		display: inline-block;
-		width: 160px;
-		height: 160px;
-		font-weight: 500;
-		color: #666;
-		border: 6px solid #03805E;
-		border-radius: 50%;
-		padding: 55px 25px 0 25px;
-		position: relative;
-		.stat-no{
-			color: #fff;
-			width: 70px;
-			height: 70px;
-			line-height: 70px;
-			top: -25px;
-			right: -15px;
-			font-size: 18px;
-			background-color: #B4264E;
-			position: absolute;
-			border-radius: 50%;
-			font-weight: 700;
-		}
-	}
-}
-/*=============End About Section==============*/
 
 /*=============Start Services Section==============*/
 .services{
 	background: url("../img/servicesBG.png");
-	.ser-row{
-		
+	.ser-row{		
 		.service{
 			display: flex;
 			align-items: center;
@@ -237,7 +198,6 @@ header{
 			img{
 				margin-left: 20px;
 				width: 65px;
-				// opacity: .5;
 			}
 			h3{
 				color: #353c3e;
