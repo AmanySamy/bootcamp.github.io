@@ -377,31 +377,29 @@ header .logo {
 /*=============End Contact Section==============*/
 /*=============Start Footer==============*/
 footer {
-  background: #3C4648;
-  color: #FFF;
-  padding: 30px 0px;
+  background: #f7f7f7;
+  color: #3C4648;
+  padding: 80px 0px;
 }
 
-footer span {
-  background: #282D30;
-  padding: 3px 50px;
-  margin: 30px 0px;
-  display: block;
-  width: 20%;
+footer a {
+  justify-content: center;
+  display: flex;
 }
 
-footer ul li {
-  margin-bottom: 10px;
+footer .col1, footer .col2 {
+  width: 200px;
+  height: 200px;
 }
 
-footer ul li .fa {
-  margin-left: 10px;
-  border: 1px solid;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
+footer .col1 {
+  background: url("../img/Procube_logo.png") no-repeat center;
+  background-size: cover;
+}
+
+footer .col2 {
+  background: url("../img/sponsership-10.png") no-repeat center;
+  background-size: contain;
 }
 
 .copyright {
