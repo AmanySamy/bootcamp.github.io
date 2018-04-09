@@ -46,16 +46,18 @@ section .sec-desc {
 /*=============End Our Framework ==============*/
 /*=============End Our Framework ==============*/
 .navbar {
-  background: rgba(53, 53, 53, 0.27);
-  padding: 15px 0px;
+  background: rgba(53, 53, 53, 0.7);
+  display: flex;
+  align-items: center;
 }
 
 .navbar .navbar-brand img {
-  width: 160px;
+  width: 200px;
 }
 
 .navbar .navbar-toggler {
   border: 1px solid #FFF;
+  margin: 8px 0px;
 }
 
 .navbar .navbar-toggler .fa-bars {
@@ -209,7 +211,7 @@ header .logo {
 
 /*=============End Services Section==============*/
 /*=============ٍStart Developing Process Section==============*/
-.develop .row {
+.develop .steps {
   position: relative;
 }
 
@@ -239,16 +241,67 @@ header .logo {
   color: #FFF;
 }
 
+.develop .steps .fa-chevron-left {
+  display: block;
+}
+
+.develop .steps .fa-chevron-down {
+  display: none;
+}
+
 .develop .steps h3 {
   font-size: 1.5rem;
   margin: 10px 0px;
 }
 
-.develop .steps p {
+.develop .steps .week-desc {
   background: #CCC;
   padding: 10px;
   border-radius: 10px;
-  min-height: 188px;
+  min-height: 236px;
+}
+
+.develop .steps .week-desc p {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .develop hr {
+    display: none;
+  }
+  .develop .vl {
+    border: 2px solid #ccc;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 0;
+  }
+  .develop .steps h3 {
+    background: #fff;
+    margin: 10px;
+    padding: 10px 0px;
+  }
+  .develop .steps .week-desc {
+    width: 50%;
+    min-height: 150px;
+    margin: 20px;
+  }
+  .develop .steps .begin {
+    margin-bottom: 56px;
+  }
+  .develop .steps .fa-chevron-left {
+    display: none;
+  }
+  .develop .steps .fa-chevron-down {
+    display: block;
+  }
+  .develop .steps i {
+    position: absolute;
+    left: 50%;
+    margin-left: -23px;
+  }
 }
 
 /*=============End Developing Process Section==============*/
