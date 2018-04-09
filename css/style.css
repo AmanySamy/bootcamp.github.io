@@ -184,7 +184,7 @@ header .logo {
 /*=============End Header==============*/
 /*=============Start Services Section==============*/
 .services {
-  background: url("../img/servicesBG.png");
+  background: url("../img/servicesBG.png") no-repeat cover;
 }
 
 .services .ser-row .service {

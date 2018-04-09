@@ -55,11 +55,6 @@ $(function() {
 		
 	});
 
-	/*--------- jQuery counterUp -----*/ 
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
 
 	/*--------- Ttiger wow Animation -----*/ 
 	new WOW().init();

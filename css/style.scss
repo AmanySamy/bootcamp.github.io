@@ -189,7 +189,7 @@ header{
 
 /*=============Start Services Section==============*/
 .services{
-	background: url("../img/servicesBG.png");
+	background: url("../img/servicesBG.png") no-repeat cover;
 	.ser-row{		
 		.service{
 			display: flex;
