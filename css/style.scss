@@ -49,16 +49,17 @@ section{
 
 /*=============End Our Framework ==============*/
 .navbar{
-	background: rgba(53,53,53,.27);
-	padding: 15px 0px;
+	background: rgba(53,53,53,.7);
+	display: flex;
+	align-items: center;
 	.navbar-brand{
 		img{
-			width: 160px; 
+			width: 200px; 
 		}
 	}
 	.navbar-toggler{
 		border: 1px solid #FFF;
-
+		margin: 8px 0px;
 		.fa-bars{
 			color: #FFF;
 		}
@@ -216,7 +217,7 @@ header{
 
 /*=============ٍStart Developing Process Section==============*/
 .develop{
-	.row{
+	.steps{
 		position: relative;
 	}
 	.display-center{
@@ -238,22 +239,80 @@ header{
 			height: 46px;
 			line-height: 46px;
 		}
+		
 		i{
 			background: #0071BC;
 			color: #FFF;
+		}
+		.fa-chevron-left{
+			display: block;
+		}
+		.fa-chevron-down{
+			display: none;
 		}
 		h3{
 			font-size: 1.5rem;
 			margin: 10px 0px;
 		}
-		p{
+		.week-desc{
 			background: #CCC;
 			padding: 10px;
 			border-radius: 10px;
-			min-height: 188px;
+			min-height: 236px;
+			p{
+				width: 80%;
+				margin: auto;
+			}
 		}
+
 	}
 	
+}
+
+// Media Queries in Develop Section
+@media(max-width: 992px){
+	.develop{
+		hr{
+			display: none;
+		}
+		.vl{
+			border: 2px solid #ccc;
+			height: 100%;
+			position: absolute;
+			left: 50%;
+			margin-left: -1px;
+			top: 0;
+		}
+		.steps{
+			h3{
+			background: #fff;
+			margin: 10px;
+			padding: 10px 0px;
+			}
+			.week-desc{
+				width: 50%;
+				
+				min-height: 150px;
+				margin: 20px;
+			}
+			.begin{
+				margin-bottom: 56px;
+			}
+			.fa-chevron-left{
+				display: none;
+			}
+			.fa-chevron-down{
+				display: block;
+			}
+			i{
+				position: absolute;
+				left: 50%;
+				margin-left: -23px;
+				
+			}
+		}
+		
+	}	
 }
 /*=============End Developing Process Section==============*/
 
