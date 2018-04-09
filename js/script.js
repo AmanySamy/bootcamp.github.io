@@ -55,6 +55,7 @@ $(function() {
 		
 	});
 
+	
 
 	/*--------- Ttiger wow Animation -----*/ 
 	new WOW().init();
